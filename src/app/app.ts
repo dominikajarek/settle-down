@@ -6,7 +6,6 @@ import { HeaderComponent } from './shared/header/header.component';
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
 })
 export class App {
   protected readonly title = signal('settle-down');
