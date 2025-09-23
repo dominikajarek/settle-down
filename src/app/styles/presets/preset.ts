@@ -3,6 +3,7 @@ import { Dark } from './dark';
 import { Light } from './light';
 import { Variables } from './primitives';
 import Aura from '@primeuix/themes/aura';
+import menubar from './components/menubar';
 
 export const customPreset = definePreset(Aura, {
   primitive: {
@@ -14,5 +15,7 @@ export const customPreset = definePreset(Aura, {
       dark: Dark,
     },
   },
-  components: {},
+  components: {
+    menubar,
+  },
 });
