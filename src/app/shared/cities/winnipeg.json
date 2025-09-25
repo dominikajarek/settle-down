@@ -1,0 +1,19 @@
+{
+  "city": "Winnipeg",
+  "province": "Manitoba",
+  "population": 834678,
+  "avg_rent": {
+    "one_bedroom": 1200,
+    "two_bedroom": 1650
+  },
+  "avg_salary": 50000,
+  "climate": {
+    "avg_winter_temp_c": -16.4,
+    "avg_summer_temp_c": 19.7
+  },
+  "industries": ["Healthcare", "Retail", "Manufacturing", "Education"],
+  "immigrant_support": {
+    "newcomer_centers": 4,
+    "languages_supported": ["English", "French", "Punjabi", "Tagalog"]
+  }
+}

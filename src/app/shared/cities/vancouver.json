@@ -1,0 +1,19 @@
+{
+  "city": "Vancouver",
+  "province": "British Columbia",
+  "population": 2708000,
+  "avg_rent": {
+    "one_bedroom": 2311,
+    "two_bedroom": 3244
+  },
+  "avg_salary": 72406,
+  "climate": {
+    "avg_winter_temp_c": 4.8,
+    "avg_summer_temp_c": 20.8
+  },
+  "industries": ["Technology", "Tourism", "Finance", "Film & Media"],
+  "immigrant_support": {
+    "newcomer_centers": 2,
+    "languages_supported": ["English", "Mandarin", "Punjabi", "Tagalog"]
+  }
+}

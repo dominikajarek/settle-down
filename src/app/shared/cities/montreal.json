@@ -1,0 +1,19 @@
+{
+  "city": "Montreal",
+  "province": "Quebec",
+  "population": 4425000,
+  "avg_rent": {
+    "one_bedroom": 1540,
+    "two_bedroom": 2084
+  },
+  "avg_salary": 55000,
+  "climate": {
+    "avg_winter_temp_c": -6.0,
+    "avg_summer_temp_c": 22.5
+  },
+  "industries": ["Aerospace", "Technology", "Education", "Finance", "Culture & Arts"],
+  "immigrant_support": {
+    "newcomer_centers": 5,
+    "languages_supported": ["French", "English", "Arabic", "Spanish"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "city": "Ottawa",
+  "province": "Ontario",
+  "population": 1017449,
+  "avg_rent": {
+    "one_bedroom": 1950,
+    "two_bedroom": 2440
+  },
+  "avg_salary": 70000,
+  "climate": {
+    "avg_winter_temp_c": -8,
+    "avg_summer_temp_c": 23
+  },
+  "industries": ["Government", "Technology", "Healthcare", "Education"],
+  "immigrant_support": {
+    "newcomer_centers": 6,
+    "languages_supported": ["English", "French"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "city": "Calgary",
+  "province": "Alberta",
+  "population": 1459000,
+  "avg_rent": {
+    "one_bedroom": 1500,
+    "two_bedroom": 2100
+  },
+  "avg_salary": 70000,
+  "climate": {
+    "avg_winter_temp_c": -7.0,
+    "avg_summer_temp_c": 20.0
+  },
+  "industries": ["Energy", "Technology", "Finance", "Construction"],
+  "immigrant_support": {
+    "newcomer_centers": 4,
+    "languages_supported": ["English", "Punjabi", "Tagalog", "Spanish"]
+  }
+}

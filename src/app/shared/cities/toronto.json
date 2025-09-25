@@ -1,0 +1,19 @@
+{
+  "city": "Toronto",
+  "province": "Ontario",
+  "population": 7106379,
+  "avg_rent": {
+    "one_bedroom": 2511,
+    "two_bedroom": 3290
+  },
+  "avg_salary": 73900,
+  "climate": {
+    "avg_winter_temp_c": -5.5,
+    "avg_summer_temp_c": 21.8
+  },
+  "industries": ["Finance", "Technology", "Healthcare", "Media"],
+  "immigrant_support": {
+    "newcomer_centers": 7,
+    "languages_supported": ["English", "French", "Mandarin", "Punjabi"]
+  }
+}
