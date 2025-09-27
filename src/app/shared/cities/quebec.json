@@ -1,0 +1,25 @@
+{
+  "city": "Quebec City",
+  "province": "Quebec",
+  "population": 549459,
+  "avg_rent": {
+    "one_bedroom": 1200,
+    "two_bedroom": 1600
+  },
+  "avg_salary": 60000,
+  "climate": {
+    "avg_winter_temp_c": -12,
+    "avg_summer_temp_c": 20
+  },
+  "industries": ["Government", "Tourism", "Technology", "Manufacturing"],
+  "immigrant_support": {
+    "newcomer_centers": 4,
+    "languages_supported": ["French", "English", "Spanish", "Arabic"]
+  },
+  "crime_rate_index": 35,
+  "public_transit_pass_cost": 94,
+  "healthcare": {
+    "family_doctor_availability": "low",
+    "average_wait_time_weeks": 12
+  }
+}

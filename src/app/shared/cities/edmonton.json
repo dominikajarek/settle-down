@@ -1,0 +1,25 @@
+{
+  "city": "Edmonton",
+  "province": "Alberta",
+  "population": 981280,
+  "avg_rent": {
+    "one_bedroom": 1350,
+    "two_bedroom": 1750
+  },
+  "avg_salary": 69000,
+  "climate": {
+    "avg_winter_temp_c": -12,
+    "avg_summer_temp_c": 18
+  },
+  "industries": ["Energy", "Healthcare", "Education", "Manufacturing"],
+  "immigrant_support": {
+    "newcomer_centers": 5,
+    "languages_supported": ["English", "Punjabi", "Tagalog", "French", "Arabic"]
+  },
+  "crime_rate_index": 75,
+  "public_transit_pass_cost": 100,
+  "healthcare": {
+    "family_doctor_availability": "moderate",
+    "average_wait_time_weeks": 10
+  }
+}
