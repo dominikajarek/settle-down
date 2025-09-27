@@ -11,9 +11,13 @@
 
     img {
       width: 100%;
-      height: auto;
+      height: 20rem;
       border-top-left-radius: 0.5rem;
       border-top-right-radius: 0.5rem;
+    }
+
+    .p-card-footer {
+      text-align: right;
     }
   }
 }
