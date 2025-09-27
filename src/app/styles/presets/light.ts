@@ -1,3 +1,5 @@
 export const Light = {
-  background: '{bright}',
+  background: '{colors.bright}',
+  textColor: '{colors.dim.1}',
+  hoverPrimary: '{colors.hover.2}',
 };

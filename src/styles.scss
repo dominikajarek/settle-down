@@ -2,4 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--sd-background);
+  color: var(--sd-text-color);
+  padding: var(--sd-spacing-sm) var(--sd-spacing-md);
 }
