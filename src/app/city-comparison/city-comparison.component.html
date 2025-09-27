@@ -1,0 +1,5 @@
+<section id="city-grid">
+  @for (city of cityData | keyvalue; track city) {
+  <app-city-card [city]="city.value"></app-city-card>
+  }
+</section>

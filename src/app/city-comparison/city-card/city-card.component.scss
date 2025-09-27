@@ -1,0 +1,19 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+
+  p-card {
+    max-width: 30rem;
+
+    &:hover {
+      box-shadow: var(--sd-colors-shadow-hover);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+  }
+}
