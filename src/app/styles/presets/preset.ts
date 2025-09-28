@@ -5,6 +5,7 @@ import { Variables } from './primitives';
 import Aura from '@primeuix/themes/aura';
 import menubar from './components/menubar';
 import card from './components/card';
+import button from './components/button';
 
 export const customPreset = definePreset(Aura, {
   primitive: {
@@ -17,6 +18,7 @@ export const customPreset = definePreset(Aura, {
     },
   },
   components: {
+    button,
     card,
     menubar,
   },
