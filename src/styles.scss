@@ -23,12 +23,11 @@ app-root {
   router-outlet {
     ~ * {
       grid-area: main;
-      height: 70vh;
+      height: fit-content;
     }
   }
 
   app-footer {
     grid-area: footer;
-    height: unset;
   }
 }
