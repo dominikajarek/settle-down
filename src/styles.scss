@@ -6,3 +6,29 @@ body {
   color: var(--sd-text-color);
   padding: var(--sd-spacing-sm) var(--sd-spacing-md);
 }
+
+app-root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+
+  app-header {
+    grid-area: header;
+  }
+
+  router-outlet {
+    ~ * {
+      grid-area: main;
+      height: 70vh;
+    }
+  }
+
+  app-footer {
+    grid-area: footer;
+    height: unset;
+  }
+}
