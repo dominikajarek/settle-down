@@ -7,5 +7,7 @@
   <ng-template #title> {{ city().city }} </ng-template>
   <ng-template #subtitle> </ng-template>
   <p>{{ city().description }}</p>
-  <ng-template #footer><p-button label="See more" /></ng-template>
+  <ng-template #footer>
+    <p-button label="See more" routerLink="/cities/{{ city().id }}" />
+  </ng-template>
 </p-card>

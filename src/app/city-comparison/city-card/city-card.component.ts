@@ -3,10 +3,11 @@ import { ChangeDetectionStrategy, Component, input, ViewEncapsulation } from '@a
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { CityNamePipe } from './city-name.pipe';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-city-card',
-  imports: [CardModule, ButtonModule, LowerCasePipe, CityNamePipe],
+  imports: [RouterModule, CardModule, ButtonModule, LowerCasePipe, CityNamePipe],
   templateUrl: './city-card.component.html',
   styleUrl: './city-card.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -15,8 +16,4 @@ import { CityNamePipe } from './city-name.pipe';
 })
 export class CityCardComponent {
   city = input<any>();
-
-  constructor() {
-    console.log(this.city());
-  }
 }
