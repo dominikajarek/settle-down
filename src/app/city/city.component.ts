@@ -1,5 +1,7 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Subject, takeUntil } from 'rxjs';
+
 import toronto from '../shared/cities/toronto.json';
 import vancouver from '../shared/cities/vancouver.json';
 import montreal from '../shared/cities/montreal.json';
@@ -8,8 +10,6 @@ import ottawa from '../shared/cities/ottawa.json';
 import edmonton from '../shared/cities/edmonton.json';
 import winnipeg from '../shared/cities/winnipeg.json';
 import quebec from '../shared/cities/quebec.json';
-import { filter, Subject, takeUntil } from 'rxjs';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-city',
@@ -40,6 +40,7 @@ export class CityComponent {
   ngOnInit() {
     this.route.paramMap.pipe(takeUntil(this.destroy$)).subscribe((params) => {
       this.cityName = params.get('id') || '';
+
       switch (this.cityName) {
         case 'toronto':
           this.city = this.toronto;
@@ -66,6 +67,7 @@ export class CityComponent {
           this.city = this.quebec;
           break;
       }
+
       this.changeDetectorRef.detectChanges();
     });
   }
