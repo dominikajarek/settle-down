@@ -1,6 +1,7 @@
 {
   "city": "Ottawa",
   "province": "Ontario",
+  "id": "ottawa",
   "population": 1017449,
   "avg_rent": {
     "one_bedroom": 1950,

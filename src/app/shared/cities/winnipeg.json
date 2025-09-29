@@ -1,6 +1,7 @@
 {
   "city": "Winnipeg",
   "province": "Manitoba",
+  "id": "winnipeg",
   "population": 834678,
   "avg_rent": {
     "one_bedroom": 1200,

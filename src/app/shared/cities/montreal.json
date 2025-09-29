@@ -1,6 +1,7 @@
 {
   "city": "Montreal",
   "province": "Quebec",
+  "id": "montreal",
   "population": 4425000,
   "avg_rent": {
     "one_bedroom": 1540,

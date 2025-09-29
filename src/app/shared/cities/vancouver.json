@@ -1,6 +1,7 @@
 {
   "city": "Vancouver",
   "province": "British Columbia",
+  "id": "vancouver",
   "population": 2708000,
   "avg_rent": {
     "one_bedroom": 2311,

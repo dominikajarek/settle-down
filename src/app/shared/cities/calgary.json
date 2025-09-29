@@ -1,6 +1,7 @@
 {
   "city": "Calgary",
   "province": "Alberta",
+  "id": "calgary",
   "population": 1459000,
   "avg_rent": {
     "one_bedroom": 1500,

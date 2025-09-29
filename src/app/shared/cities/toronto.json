@@ -1,6 +1,7 @@
 {
   "city": "Toronto",
   "province": "Ontario",
+  "id": "toronto",
   "population": 7106379,
   "avg_rent": {
     "one_bedroom": 2511,

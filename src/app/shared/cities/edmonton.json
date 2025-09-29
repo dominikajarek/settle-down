@@ -1,6 +1,7 @@
 {
   "city": "Edmonton",
   "province": "Alberta",
+  "id": "edmonton",
   "population": 981280,
   "avg_rent": {
     "one_bedroom": 1350,
