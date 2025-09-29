@@ -47,6 +47,14 @@ export class NavigationService {
             label: 'Winnipeg',
             routerLink: '/cities/winnipeg',
           },
+          {
+            label: 'Edmonton',
+            routerLink: '/cities/edmonton',
+          },
+          {
+            label: 'Quebec City',
+            routerLink: '/cities/quebec-city',
+          },
         ],
       },
     ];
