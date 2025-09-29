@@ -10,7 +10,11 @@ const tokens: ButtonDesignTokens = {
           hoverBackground: '{colors.hover.accent}',
         },
       },
-      text: {},
+      text: {
+        secondary: {
+          hoverBackground: '{colors.hover.bright.2}',
+        },
+      },
     },
     dark: {
       root: {
@@ -18,6 +22,11 @@ const tokens: ButtonDesignTokens = {
           background: '{colors.accent.1}',
           hoverBackground: '{colors.hover.accent}',
           hoverBorderColor: '{colors.hover.accent}',
+        },
+      },
+      text: {
+        secondary: {
+          hoverBackground: '{colors.hover.dim.1}',
         },
       },
     },
