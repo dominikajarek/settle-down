@@ -16,6 +16,7 @@ export const Variables = {
     bright: {
       1: '#f5f7f7',
       2: '#DDE2E7',
+      3: '#f9fafb',
     },
     accent: {
       1: '#1abc9c',
