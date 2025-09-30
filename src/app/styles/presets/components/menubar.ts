@@ -7,6 +7,7 @@ const tokens: MenubarDesignTokens = {
         background: '{colors.background.bright.1}',
         color: '{colors.text.bright.1}',
         borderColor: '{colors.border.bright.3}',
+        borderRadius: '{border.radius}',
       },
       item: {
         color: '{colors.text.bright.1}',

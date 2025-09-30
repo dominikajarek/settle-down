@@ -24,7 +24,7 @@ const tokens: ButtonDesignTokens = {
   colorScheme: {
     light: {
       root: {
-        borderRadius: '0.5rem',
+        borderRadius: '{border.radius}',
         primary: primary,
         secondary: secondary,
       },

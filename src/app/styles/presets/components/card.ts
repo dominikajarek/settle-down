@@ -6,7 +6,7 @@ const tokens: CardDesignTokens = {
       root: {
         background: '{colors.white}',
         color: '{colors.dim}',
-        borderRadius: '0.5rem',
+        borderRadius: '{border.radius}',
       },
     },
     dark: {
