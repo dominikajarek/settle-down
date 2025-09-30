@@ -8,6 +8,10 @@
   <ng-template #subtitle> </ng-template>
   <p>{{ city().description }}</p>
   <ng-template #footer>
-    <p-button label="See more" routerLink="/cities/{{ city().id }}" />
+    <p-button
+      label="See more"
+      routerLink="/cities/{{ city().id }}"
+      ariaLabel="See more about {{ city().city }}"
+    />
   </ng-template>
 </p-card>

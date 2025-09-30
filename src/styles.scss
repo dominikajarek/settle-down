@@ -1,4 +1,6 @@
-@import 'primeicons/primeicons.css';
+@use 'primeicons/primeicons.css';
+
+@use './app/styles/extensions';
 
 body {
   font-family: 'Roboto', sans-serif;

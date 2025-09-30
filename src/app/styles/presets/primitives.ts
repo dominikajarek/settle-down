@@ -82,4 +82,6 @@ export const Variables = {
     lg: '1.5rem',
     xl: '2rem',
   },
+  borderRadius: '0.5rem',
+  borderWidth: '0.063rem',
 };
