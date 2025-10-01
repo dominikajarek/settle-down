@@ -1,13 +1,24 @@
 import { MenubarDesignTokens } from '@primeuix/themes/types/menubar';
 
 const tokens: MenubarDesignTokens = {
+  root: {
+    borderRadius: '{border.radius}',
+  },
+  item: {
+    borderRadius: '{border.radius}',
+  },
+  baseItem: {
+    borderRadius: '{border.radius}',
+  },
+  submenu: {
+    borderRadius: '{border.radius}',
+  },
   colorScheme: {
     light: {
       root: {
         background: '{colors.background.bright.1}',
         color: '{colors.text.bright.1}',
         borderColor: '{colors.border.bright.3}',
-        borderRadius: '{border.radius}',
       },
       item: {
         color: '{colors.text.bright.1}',
@@ -15,10 +26,6 @@ const tokens: MenubarDesignTokens = {
         focusColor: '{colors.text.bright.1}',
         activeBackground: '{colors.hover.bright.1}',
         activeColor: '{colors.text.bright.1}',
-        borderRadius: '{border.radius}',
-      },
-      baseItem: {
-        borderRadius: '{border.radius}',
       },
       submenu: {
         background: '{colors.background.bright.2}',
@@ -40,9 +47,6 @@ const tokens: MenubarDesignTokens = {
         focusColor: '{colors.text.dim.1}',
         activeBackground: '{colors.hover.dim.1}',
         activeColor: '{colors.text.dim.1}',
-      },
-      baseItem: {
-        borderRadius: '{border.radius}',
       },
       submenu: {
         background: '{colors.background.dim.2}',

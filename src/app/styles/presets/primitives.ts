@@ -19,19 +19,23 @@ export const Variables = {
       3: '#f9fafb',
     },
     accent: {
-      1: '#1abc9c',
-      2: '#f28c38',
+      1: '#4dc1b4',
+      2: '#FF6B6B',
+      3: '#3F51B5',
     },
     hover: {
-      accent: '#16a085',
       bright: {
         1: '#f0f4f8',
         2: '#e6ebf0',
         3: '#f7f9fb',
+        accentHover: '#3BA89D',
+        accentActive: '#2C7F75',
       },
       dim: {
         1: '#2e3a46',
         2: '#242f39',
+        accentHover: '#5CD0C3',
+        accentActive: '#38938A',
       },
     },
     background: {
@@ -82,6 +86,6 @@ export const Variables = {
     lg: '1.5rem',
     xl: '2rem',
   },
-  borderRadius: '0.5rem',
+  borderRadius: '0.4rem',
   borderWidth: '0.063rem',
 };
