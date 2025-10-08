@@ -5,7 +5,7 @@ const tokens: GalleriaDesignTokens = {
     borderRadius: '{border.radius}',
   },
   thumbnailsContent: {
-    padding: '1rem',
+    padding: '{spacing.md}',
   },
   thumbnailNavButton: {
     borderRadius: '50%',

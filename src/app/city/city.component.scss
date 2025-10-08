@@ -2,13 +2,11 @@
   height: 70vh;
 }
 
-// .background {
-//   width: 50rem;
-//   height: 30rem;
-//   display: flex;
-//   justify-self: flex-end;
-// }
-
 #city-container {
   display: flex;
+  gap: 3rem;
+
+  #info-container {
+    width: 20rem;
+  }
 }

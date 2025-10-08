@@ -19,10 +19,11 @@ import winnipeg from '../shared/cities/winnipeg.json';
 import quebec from '../shared/cities/quebec.json';
 import { CommonModule } from '@angular/common';
 import { CityNamePipe } from '../city-comparison/city-card/city-name.pipe';
+import { FieldsetModule } from 'primeng/fieldset';
 
 @Component({
   selector: 'app-city',
-  imports: [CommonModule, GalleriaModule, CityNamePipe],
+  imports: [CommonModule, GalleriaModule, FieldsetModule, CityNamePipe],
   templateUrl: './city.component.html',
   styleUrl: './city.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

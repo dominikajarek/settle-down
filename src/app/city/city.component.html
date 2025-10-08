@@ -20,7 +20,11 @@
     </ng-template>
   </p-galleria>
 
-  <h1>{{ city.city }}</h1>
+  <section id="info-container">
+    <p-fieldset legend="{{ city.city }}">
+      <p>{{ city.description }}</p>
+    </p-fieldset>
+  </section>
 </article>
 
 }

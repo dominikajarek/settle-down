@@ -7,6 +7,7 @@ import menubar from './components/menubar';
 import card from './components/card';
 import button from './components/button';
 import galleria from './components/galleria';
+import fieldset from './components/fieldset';
 
 export const customPreset = definePreset(Aura, {
   primitive: {
@@ -21,6 +22,7 @@ export const customPreset = definePreset(Aura, {
   components: {
     button,
     card,
+    fieldset,
     galleria,
     menubar,
   },
