@@ -2,7 +2,7 @@
   "city": "Winnipeg",
   "province": "Manitoba",
   "id": "winnipeg",
-  "images": ["winnipeg", "winnipeg1", "winnipeg2", "winnipeg3", "winnipeg4"],
+  "images": ["winnipeg", "winnipeg1", "winnipeg2", "winnipeg3", "winnipeg4", "winnipeg5"],
   "population": 834678,
   "avg_rent": {
     "one_bedroom": 1200,

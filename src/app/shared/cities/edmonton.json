@@ -2,7 +2,7 @@
   "city": "Edmonton",
   "province": "Alberta",
   "id": "edmonton",
-  "images": ["edmonton", "edmonton1", "edmonton2", "edmonton3", "edmonton4"],
+  "images": ["edmonton", "edmonton1", "edmonton2", "edmonton3", "edmonton4", "edmonton5"],
   "population": 981280,
   "avg_rent": {
     "one_bedroom": 1350,

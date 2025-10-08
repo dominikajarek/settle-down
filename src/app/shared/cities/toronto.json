@@ -2,7 +2,7 @@
   "city": "Toronto",
   "province": "Ontario",
   "id": "toronto",
-  "images": ["toronto", "toronto1", "toronto2", "toronto3", "toronto4"],
+  "images": ["toronto", "toronto1", "toronto2", "toronto3", "toronto4", "toronto5"],
   "population": 7106379,
   "avg_rent": {
     "one_bedroom": 2511,

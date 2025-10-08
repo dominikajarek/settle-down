@@ -2,7 +2,7 @@
   "city": "Quebec City",
   "province": "Quebec",
   "id": "quebec-city",
-  "images": ["quebec", "quebec1", "quebec2", "quebec3", "quebec4"],
+  "images": ["quebec", "quebec1", "quebec2", "quebec3", "quebec4", "quebec5"],
   "population": 549459,
   "avg_rent": {
     "one_bedroom": 1200,

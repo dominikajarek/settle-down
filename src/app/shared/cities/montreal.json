@@ -2,7 +2,7 @@
   "city": "Montreal",
   "province": "Quebec",
   "id": "montreal",
-  "images": ["montreal", "montreal1", "montreal2", "montreal3", "montreal4"],
+  "images": ["montreal", "montreal1", "montreal2", "montreal3", "montreal4", "montreal5"],
   "population": 4425000,
   "avg_rent": {
     "one_bedroom": 1540,

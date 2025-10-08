@@ -2,7 +2,7 @@
   "city": "Calgary",
   "province": "Alberta",
   "id": "calgary",
-  "images": ["calgary", "calgary1", "calgary2", "calgary3", "calgary4"],
+  "images": ["calgary", "calgary1", "calgary2", "calgary3", "calgary4", "calgary5"],
   "population": 1459000,
   "avg_rent": {
     "one_bedroom": 1500,
