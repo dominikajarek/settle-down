@@ -2,3 +2,79 @@
   display: flex;
   height: 70vh;
 }
+
+#home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sd-spacing-lg);
+  width: 100%;
+
+  h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-weight: 500;
+  }
+
+  #main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  #home-hero-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--sd-spacing-md);
+    width: 40rem;
+
+    .hero-container {
+      display: flex;
+    }
+
+    #home-hero-buttons {
+      display: flex;
+      gap: var(--sd-spacing-md);
+      margin-top: var(--sd-spacing-sm);
+    }
+  }
+
+  #home-hero-content {
+    display: flex;
+    flex-direction: column;
+
+    #home-hero-info,
+    #home-hero-footer {
+      display: flex;
+      flex-direction: column;
+      gap: var(--sd-spacing-sm);
+      // text-align: left;
+      margin-top: var(--sd-spacing-lg);
+      width: 38rem;
+    }
+
+    #home-hero-cards {
+      display: flex;
+      gap: var(--sd-spacing-lg);
+
+      p-card {
+        width: 8rem;
+        margin-top: var(--sd-spacing-lg);
+      }
+    }
+
+    #home-hero-footer {
+      margin-top: 3rem;
+      gap: var(--sd-spacing-md);
+
+      p-button {
+        align-self: center;
+      }
+    }
+  }
+}

@@ -1,1 +1,42 @@
-<h1>Welcome to the Home Page</h1>
+<article id="home-hero">
+  <!-- <section id="main-container"> -->
+  <section id="home-hero-header">
+    <div class="hero-container">
+      <h1>Find your perfect Canadian city</h1>
+      <p>Compare cities by cost of living, jobs, lifestyle, and more.</p>
+      <img src="assets/hero.png" width="100" height="200" />
+    </div>
+    <section id="home-hero-buttons">
+      <p-button label="Explore Cities" routerLink="/cities"></p-button>
+      <p-button label="Get Started" severity="secondary"></p-button>
+    </section>
+  </section>
+
+  <section id="home-hero-content">
+    <section id="home-hero-info">
+      <h2>Why Settle Down?</h2>
+      <p>Moving to Canada or relocating within the country?</p>
+      <p>
+        Settle Down helps you discover the city that matches your lifestyle, budget, and career
+        goals.
+      </p>
+    </section>
+
+    <section id="home-hero-cards">
+      @for (city of sampleCities; track city) {
+      <p-card>
+        <ng-template #header>
+          <img alt="Card" src="assets/{{ city }}/{{ city }}.jpg" width="100%" />
+        </ng-template>
+        <ng-template #title> {{ city | titlecase }} </ng-template>
+      </p-card>
+      }
+    </section>
+
+    <section id="home-hero-footer">
+      <h2>Ready to find your new home in Canada?</h2>
+      <p-button label="Start Exploring" routerLink="/cities"></p-button>
+    </section>
+  </section>
+  <!-- </section> -->
+</article>
