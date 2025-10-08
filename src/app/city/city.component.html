@@ -1,3 +1,26 @@
 @if (city) {
-<h1>{{ city.city }}</h1>
+<article id="city-container">
+  <p-galleria
+    [containerStyle]="{ 'max-width': '640px' }"
+    [numVisible]="5"
+    [value]="images()"
+    (valueChange)="onImagesChange($event)"
+  >
+    <ng-template #item let-item>
+      <img
+        src="assets/{{ city.city.toLowerCase() | appCityName }}/{{ item }}.jpg"
+        style="width: 100%; height: 30rem"
+      />
+    </ng-template>
+    <ng-template #thumbnail let-item>
+      <img
+        src="assets/{{ city.city.toLowerCase() | appCityName }}/{{ item }}.jpg"
+        style="width: 100%; height: 4rem"
+      />
+    </ng-template>
+  </p-galleria>
+
+  <h1>{{ city.city }}</h1>
+</article>
+
 }

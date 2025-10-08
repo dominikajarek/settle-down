@@ -1,11 +1,5 @@
 export const Variables = {
   colors: {
-    primary: '#2ca6a4',
-    secondary: '#2c92a6',
-    gray: '#9aa5a5',
-    success: '#4caf50',
-    warning: '#fbc02d',
-    error: '#e53935',
     white: '#ffffff',
     black: '#000000',
     dim: {

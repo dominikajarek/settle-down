@@ -5,15 +5,11 @@
   p-card {
     max-width: 30rem;
 
-    &:hover {
-      box-shadow: var(--sd-colors-shadow-hover);
-    }
-
     img {
       width: 100%;
       height: 20rem;
-      border-top-left-radius: 0.5rem;
-      border-top-right-radius: 0.5rem;
+      border-top-left-radius: var(--sd-border-radius);
+      border-top-right-radius: var(--sd-border-radius);
     }
 
     .p-card-footer {

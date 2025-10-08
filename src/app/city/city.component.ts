@@ -1,6 +1,13 @@
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  WritableSignal,
+  signal,
+} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
+import { GalleriaModule } from 'primeng/galleria';
 
 import toronto from '../shared/cities/toronto.json';
 import vancouver from '../shared/cities/vancouver.json';
@@ -10,25 +17,29 @@ import ottawa from '../shared/cities/ottawa.json';
 import edmonton from '../shared/cities/edmonton.json';
 import winnipeg from '../shared/cities/winnipeg.json';
 import quebec from '../shared/cities/quebec.json';
+import { CommonModule } from '@angular/common';
+import { CityNamePipe } from '../city-comparison/city-card/city-name.pipe';
 
 @Component({
   selector: 'app-city',
-  imports: [],
+  imports: [CommonModule, GalleriaModule, CityNamePipe],
   templateUrl: './city.component.html',
   styleUrl: './city.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CityComponent {
-  cityName = '';
-  city: any = '';
-  toronto = toronto;
-  vancouver = vancouver;
-  montreal = montreal;
-  calgary = calgary;
-  ottawa = ottawa;
-  edmonton = edmonton;
-  winnipeg = winnipeg;
-  quebec = quebec;
+  protected cityName = '';
+  protected city: any = '';
+  protected images: WritableSignal<any> = signal([]);
+
+  protected toronto = toronto;
+  protected vancouver = vancouver;
+  protected montreal = montreal;
+  protected calgary = calgary;
+  protected ottawa = ottawa;
+  protected edmonton = edmonton;
+  protected winnipeg = winnipeg;
+  protected quebec = quebec;
 
   private destroy$ = new Subject<void>();
 
@@ -68,7 +79,14 @@ export class CityComponent {
           break;
       }
 
+      this.images.set(this.city.images);
+      console.log(this.images());
       this.changeDetectorRef.detectChanges();
     });
+  }
+
+  onImagesChange(event: any) {
+    const newImages = Array.isArray(event) ? event : event?.value ?? [];
+    this.images.set(newImages);
   }
 }
