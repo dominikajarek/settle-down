@@ -3,10 +3,11 @@ import { MenuItem } from 'primeng/api';
 import { MenubarModule } from 'primeng/menubar';
 import { ThemeSwitcherComponent } from '../theme-switcher/theme-switcher.component';
 import { NavigationService } from '../services/navigation.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
-  imports: [MenubarModule, ThemeSwitcherComponent],
+  imports: [MenubarModule, RouterModule, ThemeSwitcherComponent],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
