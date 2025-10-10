@@ -59,6 +59,7 @@ export class NavigationService {
       },
       {
         label: 'Map',
+        icon: 'pi pi-map-marker',
         routerLink: '/map',
       },
     ];
