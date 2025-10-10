@@ -22,7 +22,22 @@
 
   <section id="info-container">
     <p-fieldset legend="{{ city.city }}">
-      <p>{{ city.description }}</p>
+      <p id="description">{{ city.description }}</p>
+      <section>
+        <h4>Province: {{ city.province }}</h4>
+        <h4>Population: {{ city.population }}</h4>
+        <h4>
+          Climate: Average summer ({{ city.climate.avg_summer_temp_c }}) / Average winter ({{
+            city.climate.avg_winter_temp_c
+          }})
+        </h4>
+        <h4>Average salary (annually): {{ city.avg_salary }}</h4>
+        <h4>Average rent (1 bedroom): {{ city.avg_rent.one_bedroom }}</h4>
+        <h4>Average rent (2 bedroom): {{ city.avg_rent.two_bedroom }}</h4>
+        <h4>Leading industries: {{ city.industries }}</h4>
+        <h4>Immigrant support: {{ city.immigrant_support.newcomer_centers }} centers</h4>
+        <h4>Languages supported: {{ city.immigrant_support.languages_supported }}</h4>
+      </section>
     </p-fieldset>
   </section>
 </article>

@@ -4,9 +4,20 @@
 
 #city-container {
   display: flex;
+  justify-content: center;
   gap: 3rem;
 
   #info-container {
-    width: 20rem;
+    width: 50rem;
+
+    #description {
+      margin-bottom: var(--sd-spacing-md);
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      gap: var(--sd-spacing-sm);
+    }
   }
 }
