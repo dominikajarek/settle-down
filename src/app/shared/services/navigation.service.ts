@@ -57,6 +57,10 @@ export class NavigationService {
           },
         ],
       },
+      {
+        label: 'Map',
+        routerLink: '/map',
+      },
     ];
   }
 }
