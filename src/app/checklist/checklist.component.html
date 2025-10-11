@@ -1,0 +1,21 @@
+@for (category of checklist.categories; track category) {
+<article class="check-card">
+  <p-card>
+    <h4>
+      {{ category.title }}
+    </h4>
+
+    @for (item of category.items; track item.id) {
+    <section class="item-container">
+      <p-checkbox
+        [(ngModel)]="item.completed"
+        [binary]="true"
+        [inputId]="item.text"
+        (onChange)="saveToLocalStorage()"
+      />
+      <label>{{ item.text }}</label>
+    </section>
+    }
+  </p-card>
+</article>
+}

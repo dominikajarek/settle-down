@@ -1,3 +1,22 @@
+.check-card {
+  width: 60rem;
+  justify-self: center;
+
+  &:not(:first-child) {
+    margin-top: var(--sd-spacing-md);
+  }
+
+  h4 {
+    margin-bottom: var(--sd-spacing-md);
+  }
+
+  .item-container {
+    display: flex;
+    gap: var(--sd-spacing-sm);
+    margin-bottom: var(--sd-spacing-md);
+  }
+}
+
 :host {
-  display: block;
+  padding-bottom: var(--sd-spacing-md);
 }
