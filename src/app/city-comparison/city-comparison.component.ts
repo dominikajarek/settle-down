@@ -18,7 +18,7 @@ import { KeyValuePipe } from '@angular/common';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CityComparisonComponent {
-  cities = [
+  protected cities = [
     'Toronto',
     'Vancouver',
     'Montreal',
@@ -29,7 +29,7 @@ export class CityComparisonComponent {
     'Quebec',
   ];
 
-  cityData = {
+  protected cityData = {
     toronto: toronto,
     vancouver: vancouver,
     montreal: montreal,

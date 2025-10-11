@@ -12,5 +12,5 @@ import { CardModule } from 'primeng/card';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeComponent {
-  sampleCities = ['toronto', 'vancouver', 'montreal'];
+  protected sampleCities = ['toronto', 'vancouver', 'montreal'];
 }

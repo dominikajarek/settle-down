@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
   encapsulation: ViewEncapsulation.None,
 })
 export class HeaderComponent {
-  items: MenuItem[] | undefined;
+  protected items: MenuItem[] | undefined;
 
   private navigationService = inject(NavigationService);
 
