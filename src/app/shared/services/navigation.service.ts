@@ -17,7 +17,7 @@ export class NavigationService {
         icon: 'pi pi-search',
         items: [
           {
-            label: 'Comparison',
+            label: 'All cities',
             routerLink: '/cities',
           },
           {
