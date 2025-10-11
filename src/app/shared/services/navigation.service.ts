@@ -62,6 +62,11 @@ export class NavigationService {
         icon: 'pi pi-map-marker',
         routerLink: '/map',
       },
+      {
+        label: 'Checklist',
+        icon: 'pi pi-list-check',
+        routerLink: '/checklist',
+      },
     ];
   }
 }
