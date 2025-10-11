@@ -1,0 +1,127 @@
+{
+  "checklistTitle": "SettleDown Relocation Checklist",
+  "description": "A general guide to help you prepare for your move to Canada.",
+  "categories": [
+    {
+      "title": "Before You Move",
+      "items": [
+        {
+          "id": 1,
+          "text": "Research and compare Canadian cities (cost of living, weather, jobs, etc.)",
+          "completed": false
+        },
+        { "id": 2, "text": "Check visa or immigration requirements", "completed": false },
+        {
+          "id": 3,
+          "text": "Prepare important documents (passport, medical records, pet papers, etc.)",
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Save emergency funds (at least 3–6 months of expenses)",
+          "completed": false
+        },
+        { "id": 5, "text": "Book your flight(s)", "completed": false },
+        { "id": 6, "text": "Research pet travel requirements (if applicable)", "completed": false },
+        {
+          "id": 7,
+          "text": "Cancel or transfer current utilities and subscriptions",
+          "completed": false
+        },
+        { "id": 8, "text": "Notify your bank and set up international access", "completed": false }
+      ]
+    },
+    {
+      "title": "Housing",
+      "items": [
+        { "id": 9, "text": "Research rental areas and average prices", "completed": false },
+        {
+          "id": 10,
+          "text": "Shortlist neighbourhoods near transit and work or school",
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "Contact real estate agents or browse trusted rental websites",
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "Prepare rental documents (proof of income, references, credit score)",
+          "completed": false
+        },
+        { "id": 13, "text": "Schedule viewings (virtual or in person)", "completed": false },
+        { "id": 14, "text": "Sign a lease and pay deposits", "completed": false },
+        { "id": 15, "text": "Set up renter’s insurance", "completed": false }
+      ]
+    },
+    {
+      "title": "Arrival Essentials",
+      "items": [
+        { "id": 16, "text": "Get a Canadian SIM card", "completed": false },
+        { "id": 17, "text": "Apply for a Social Insurance Number (SIN)", "completed": false },
+        { "id": 18, "text": "Open a Canadian bank account", "completed": false },
+        {
+          "id": 19,
+          "text": "Apply for provincial health insurance (e.g. OHIP in Ontario)",
+          "completed": false
+        },
+        { "id": 20, "text": "Register with a family doctor or walk-in clinic", "completed": false },
+        {
+          "id": 21,
+          "text": "Get a local transit card (e.g. Presto, Compass, OPUS)",
+          "completed": false
+        },
+        { "id": 22, "text": "Update your address with all institutions", "completed": false }
+      ]
+    },
+    {
+      "title": "Settling In",
+      "items": [
+        { "id": 23, "text": "Explore nearby grocery stores and pharmacies", "completed": false },
+        { "id": 24, "text": "Get household essentials and furniture", "completed": false },
+        { "id": 25, "text": "Set up internet and utilities", "completed": false },
+        { "id": 26, "text": "Meet your neighbours and explore the community", "completed": false },
+        { "id": 27, "text": "Learn recycling and waste rules in your area", "completed": false },
+        {
+          "id": 28,
+          "text": "Find your nearest public library or community centre",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "title": "Work & Finances",
+      "items": [
+        { "id": 29, "text": "Update your resume to Canadian standards", "completed": false },
+        { "id": 30, "text": "Apply for jobs or attend networking events", "completed": false },
+        {
+          "id": 31,
+          "text": "Understand taxes and register with the CRA (Canada Revenue Agency)",
+          "completed": false
+        },
+        { "id": 32, "text": "Set up online banking and budgeting tools", "completed": false },
+        { "id": 33, "text": "Learn about Canadian credit scores", "completed": false }
+      ]
+    },
+    {
+      "title": "Lifestyle & Integration",
+      "items": [
+        { "id": 34, "text": "Join local expat or newcomer groups", "completed": false },
+        { "id": 35, "text": "Attend cultural or community events", "completed": false },
+        { "id": 36, "text": "Explore parks, cafes, and attractions", "completed": false },
+        { "id": 37, "text": "Learn basic French if moving to Quebec", "completed": false },
+        { "id": 38, "text": "Try local food specialties", "completed": false }
+      ]
+    },
+    {
+      "title": "For Pet Owners",
+      "items": [
+        { "id": 39, "text": "Register your pet with a local vet", "completed": false },
+        { "id": 40, "text": "Get updated vaccinations and pet insurance", "completed": false },
+        { "id": 41, "text": "Learn pet bylaws (leash, noise, etc.)", "completed": false },
+        { "id": 42, "text": "Find pet-friendly parks and pet stores", "completed": false }
+      ]
+    }
+  ]
+}
