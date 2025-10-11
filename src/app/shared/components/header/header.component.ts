@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, inject, ViewEncapsulation } from '@
 import { MenuItem } from 'primeng/api';
 import { MenubarModule } from 'primeng/menubar';
 import { ThemeSwitcherComponent } from '../theme-switcher/theme-switcher.component';
-import { NavigationService } from '../services/navigation.service';
+import { NavigationService } from '../../services/navigation.service';
 import { RouterModule } from '@angular/router';
 
 @Component({

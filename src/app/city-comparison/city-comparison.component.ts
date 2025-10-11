@@ -1,13 +1,13 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CityCardComponent } from './city-card/city-card.component';
-import toronto from '../shared/cities/toronto.json';
-import vancouver from '../shared/cities/vancouver.json';
-import montreal from '../shared/cities/montreal.json';
-import calgary from '../shared/cities/calgary.json';
-import ottawa from '../shared/cities/ottawa.json';
-import edmonton from '../shared/cities/edmonton.json';
-import winnipeg from '../shared/cities/winnipeg.json';
-import quebec from '../shared/cities/quebec.json';
+import toronto from '../shared/models/cities/toronto.json';
+import vancouver from '../shared/models/cities/vancouver.json';
+import montreal from '../shared/models/cities/montreal.json';
+import calgary from '../shared/models/cities/calgary.json';
+import ottawa from '../shared/models/cities/ottawa.json';
+import edmonton from '../shared/models/cities/edmonton.json';
+import winnipeg from '../shared/models/cities/winnipeg.json';
+import quebec from '../shared/models/cities/quebec.json';
 import { KeyValuePipe } from '@angular/common';
 
 @Component({
