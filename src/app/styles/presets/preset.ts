@@ -8,6 +8,7 @@ import card from './components/card';
 import button from './components/button';
 import galleria from './components/galleria';
 import fieldset from './components/fieldset';
+import checkbox from './components/checkbox';
 
 export const customPreset = definePreset(Aura, {
   primitive: {
@@ -22,6 +23,7 @@ export const customPreset = definePreset(Aura, {
   components: {
     button,
     card,
+    checkbox,
     fieldset,
     galleria,
     menubar,
