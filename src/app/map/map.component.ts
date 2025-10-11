@@ -13,6 +13,12 @@ export class MapComponent {
 
   ngAfterViewInit() {
     this.initMap();
+
+    var tooltip = L.tooltip(L.latLng([50.2134, -96.9638]), {
+      sticky: true,
+      permanent: true,
+    }).setContent('Winnipeg');
+    tooltip.addTo(this.map);
   }
 
   private initMap() {
